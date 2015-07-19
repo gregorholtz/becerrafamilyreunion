@@ -61,6 +61,8 @@
 
 						<div class="medium-8 small-12 small-centered columns"><!-- .columns start -->
 
+							<a href="/">
+
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 width="792px" height="792px" viewBox="0 0 792 792" enable-background="new 0 0 792 792" xml:space="preserve">
 							<g>
@@ -266,6 +268,8 @@
 								<text transform="matrix(1 0 0 1 194.8544922 160.6196289)"><tspan x="0" y="0" font-family="'Rockwell-Bold'" font-size="93.9859161">BECERRA  </tspan><tspan x="0.2280273" y="59.9160156" font-family="'Rockwell-Bold'" font-size="49.9300194">FAMILY REUNION</tspan></text>
 							</g>
 							</svg>
+
+						</a>
 
 						</div><!-- .columns end -->
 
