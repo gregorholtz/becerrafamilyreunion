@@ -6899,7 +6899,7 @@ a {
 /* Default paragraph styles */
 /* line 234, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/components/foundation/scss/foundation/components/_type.scss */
 p {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.6;
@@ -6919,7 +6919,7 @@ p {
 /* line 252, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -7006,7 +7006,7 @@ code {
 ul,
 ol,
 dl {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   list-style-position: outside;
@@ -8152,42 +8152,80 @@ p {
 /* line 8, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/base/_typography.scss */
 h1 {
   font-size: 2rem;
-  font-weight: 700; }
+  padding: 1.5rem 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff9477;
+  text-align: center; }
 
-/* line 13, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/base/_typography.scss */
+/* line 17, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/base/_typography.scss */
 h2 {
   font-size: 1.25rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff9477; }
+
+/* line 24, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/base/_typography.scss */
+a {
+  color: #ff9477; }
 
 /* line 1, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
 #masthead {
-  background: #ccc; }
+  margin: .5rem 0; }
 
-/* line 5, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+/* line 6, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
 .site-branding {
-  margin-bottom: 1.25rem; }
+  margin-bottom: 1.25rem;
+  text-align: center; }
+  /* line 10, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+  .site-branding svg {
+    width: 250px;
+    height: 250px; }
 
-/* line 9, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+/* line 16, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
 .site-title {
   font-size: 3rem;
   margin: 0; }
 
-/* line 14, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+/* line 21, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
 .site-description {
   margin: 0; }
 
-/* line 18, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
-.main-navigation {
-  background: #333; }
-
-/* line 22, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+/* line 29, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
 .main-navigation ul {
-  margin: 0; }
+  margin: 0 auto; }
+
+/* line 33, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+.top-bar {
+  background-color: transparent; }
+  /* line 36, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+  .top-bar .top-bar-section {
+    text-align: center; }
+    /* line 39, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+    .top-bar .top-bar-section ul li:not(.has-form) {
+      float: none;
+      display: inline-block; }
+      /* line 43, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+      .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
+        background-color: #d0d0d0; }
+    /* line 47, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+    .top-bar .top-bar-section ul li.active a {
+      background-color: #ff9477 !important; }
+
+@media only screen and (min-width: 40.0625em) {
+  /* line 55, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_header.scss */
+  .translation {
+    position: absolute;
+    top: 2vh;
+    right: 0; } }
 
 /* line 1, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_footer.scss */
 #colophon {
-  background: #ccc;
-  padding: 1rem 0; }
+  height: 75vh;
+  background-size: cover;
+  background: linear-gradient(to bottom, #fffff5 0%, rgba(255, 255, 255, 0) 100%), url("../../img/guadalajara.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffff5', endColorstr='#00ffffff',GradientType=0 ), url("../../img/guadalajara.jpg");
+  padding: 3rem 0; }
 
 /* line 1, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/sections/_comments.scss */
 .comment-content p {
@@ -8198,31 +8236,43 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700; }
 
+/* line 1, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_front-page.scss */
+.image_divider {
+  margin: 3rem 0;
+  background-image: url("../../img/guadalajara.jpg");
+  height: 75vh;
+  background-size: cover; }
+
 /* line 1, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+body {
+  background-color: #FFFFF5;
+  font-family: "Roboto", sans-serif; }
+
+/* line 6, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 #content {
   margin: 2rem 0; }
 
-/* line 5, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+/* line 10, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 .entry-meta {
   margin-bottom: 1.25rem; }
 
-/* line 9, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+/* line 14, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 .updated {
   display: none; }
 
-/* line 13, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+/* line 18, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 .vcard {
   display: inherit;
   padding: 0;
   border: none;
   margin: 0; }
 
-/* line 20, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+/* line 25, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 .vcard .fn {
   font-weight: normal;
   font-size: 1rem; }
 
-/* line 25, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
+/* line 30, /Users/GHOLTZ/vagrant-local/www/becerrafamilyreunion/htdocs/wp-content/themes/heisenberg/assets/sass/pages/_page.scss */
 .entry-content p {
   margin-bottom: 1.25rem; }
 

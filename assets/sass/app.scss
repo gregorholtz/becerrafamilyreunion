@@ -1,6 +1,8 @@
 // Our normalize sass file (from Foundation)
 @import "../components/foundation/scss/normalize";
 
+@import "styleguide";
+
 // Foundation override file
 @import "settings";
 

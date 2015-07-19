@@ -7,10 +7,20 @@ p {
 
 h1 {
 	font-size: 2rem;
+	padding: 1.5rem 0;
 	font-weight: 700;
+	text-transform: uppercase;
+	color: $salmon;
+	text-align: center;
 }
 
 h2 {
 	font-size: 1.25rem;
 	font-weight: 700;
+	text-transform: uppercase;
+	color: $salmon;
+}
+
+a {
+	color: $salmon;
 }

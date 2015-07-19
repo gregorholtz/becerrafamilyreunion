@@ -1,9 +1,16 @@
 #masthead {
-	background: #ccc;
+	// background: #ccc;
+	margin: .5rem 0;
 }
 
 .site-branding {
 	margin-bottom: 1.25rem;
+	text-align: center;
+
+	svg {
+		width: 250px;
+		height: 250px;
+	}
 }
 
 .site-title {
@@ -16,9 +23,39 @@
 }
 
 .main-navigation {
-	background: #333;
+	// background: #333;
 }
 
 .main-navigation ul {
-	margin: 0;
+	margin: 0 auto;
+}
+
+.top-bar {
+	background-color: transparent;
+
+	.top-bar-section {
+		text-align: center;
+		ul {
+			li:not(.has-form) {
+				float: none;
+				display: inline-block;
+
+				a:not(.button) {
+					background-color: $gray;
+				}
+			}
+			li.active a {
+				background-color: $salmon !important;
+			}
+		}
+
+	}
+}
+
+.translation {
+	@media #{$medium-up} {
+		position: absolute;
+		top: 2vh;
+		right: 0;
+	}
 }

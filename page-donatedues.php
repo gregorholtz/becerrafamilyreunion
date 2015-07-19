@@ -19,11 +19,8 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4T77BYPSLSZDU&lc=US&item_name=Becerra%20Family%20Reunion&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">DONATE HERE</a>
 
-					<?php get_template_part( 'page-templates/partials/content', 'page' ); ?>
-
-				<?php endwhile; // end of the loop. ?>
 
 			</main><!-- #main -->
 		</div><!-- #primary -->

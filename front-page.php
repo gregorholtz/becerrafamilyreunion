@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div class="row"><!-- .row start -->
 
-	<div class="medium-8 small-12 columns"><!-- .columns start -->
+	<div class="medium-10 small-12 small-centered columns"><!-- .columns start -->
 
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
@@ -44,12 +44,19 @@ get_header(); ?>
 
 	</div><!-- .columns end -->
 
-	<div class="medium-4 small-12 columns"><!-- .columns start -->
-
-		<?php get_sidebar(); ?>
-
-	</div><!-- .columns end -->
-
 </div><!-- .row end -->
+
+<div class="image_divider">
+</div>
+
+<div class="row" id="rsvp">
+	<div class="medium-10 small-12 small-centered columns">
+		<h1>RSVP for the Reunion!</h1>
+
+		<?php echo do_shortcode('[contact-form-7 id="45" title="RSVP"]'); ?>
+
+	</div>
+</div>
+
 
 <?php get_footer(); ?>

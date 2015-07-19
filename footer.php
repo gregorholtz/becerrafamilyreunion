@@ -14,10 +14,10 @@
 
 		<div class="row"><!-- .row start -->
 
-			<div class="small-12 columns"><!-- .columns start -->
+			<div class="medium-10 small-12 small-centered columns"><!-- .columns start -->
 
 				<div class="site-info">
-					<p>This is the footer</p>
+					<p>Questions? Send a message to <a href="becerrafamilyreunion@gmail.com">becerrafamilyreunion@gmail.com</a></p>
 				</div><!-- .site-info -->
 
 			</div><!-- .columns end -->
@@ -25,7 +25,7 @@
 		</div><!-- .row end -->
 
 	</footer><!-- #colophon -->
-	
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
